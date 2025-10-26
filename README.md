@@ -352,7 +352,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/vpn-killswitch.git
+git clone https://github.com/Aybee2k8/vpn-killswitch.git
 cd vpn-killswitch
 
 # Install dependencies
@@ -408,7 +408,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Andre Blenkers**
 - Email: [blenkers85@icloud.com](mailto:blenkers85@icloud.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Aybee2k8](https://github.com/Aybee2k8)
 
 ---
 
@@ -441,8 +441,8 @@ Always test thoroughly before relying on this software for critical privacy need
 ## 🔗 Links
 
 - **Documentation**: [Full Guide](FINAL_ANLEITUNG.md)
-- **Issues**: [Report Bug](https://github.com/yourusername/vpn-killswitch/issues)
-- **Discussions**: [Community](https://github.com/yourusername/vpn-killswitch/discussions)
+- **Issues**: [Report Bug](https://github.com/Aybee2k8/vpn-killswitch/issues)
+- **Discussions**: [Community](https://github.com/Aybee2k8/vpn-killswitch/discussions)
 
 ---
 
