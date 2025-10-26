@@ -79,7 +79,7 @@ sudo python3 vpn_killswitch_final.py --install
 ```
 
 That's it! The app will:
-- ✅ Install itself to `/usr/local/vpn-killswitch`
+- ✅ Install itself to `/usr/local/VPN-Kill-Switch-MacOS`
 - ✅ Create a LaunchDaemon for auto-start
 - ✅ Appear in your menu bar
 - ✅ Start protecting you immediately
@@ -87,15 +87,15 @@ That's it! The app will:
 ### What Gets Installed
 
 ```
-/usr/local/vpn-killswitch/
+/usr/local/VPN-Kill-Switch-MacOS/
   └── vpn_killswitch.py              (Main app)
 
 /Library/LaunchDaemons/
   └── com.vpnkillswitch.daemon.plist (Auto-start config)
 
 /var/log/
-  ├── vpn-killswitch.log             (Activity log)
-  └── vpn-killswitch-error.log       (Error log)
+  ├── VPN-Kill-Switch-MacOS.log             (Activity log)
+  └── VPN-Kill-Switch-MacOS-error.log       (Error log)
 ```
 
 ---
@@ -275,14 +275,14 @@ sudo launchctl unload /Library/LaunchDaemons/com.vpnkillswitch.daemon.plist
 sudo rm /Library/LaunchDaemons/com.vpnkillswitch.daemon.plist
 
 # Remove app files
-sudo rm -rf /usr/local/vpn-killswitch
+sudo rm -rf /usr/local/VPN-Kill-Switch-MacOS
 
 # Disable firewall
 sudo pfctl -d
 sudo pfctl -F all
 
 # Optional: Remove logs
-sudo rm /var/log/vpn-killswitch*.log
+sudo rm /var/log/VPN-Kill-Switch-MacOS*.log
 ```
 
 ---
@@ -292,7 +292,7 @@ sudo rm /var/log/vpn-killswitch*.log
 ### View Live Logs
 
 ```bash
-tail -f /var/log/vpn-killswitch.log
+tail -f /var/log/VPN-Kill-Switch-MacOS.log
 ```
 
 ### Check Status
@@ -352,8 +352,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone repository
-git clone https://github.com/Aybee2k8/vpn-killswitch.git
-cd vpn-killswitch
+git clone https://github.com/Aybee2k8/VPN-Kill-Switch-MacOS.git
+cd VPN-Kill-Switch-MacOS
 
 # Install dependencies
 pip3 install rumps requests --break-system-packages
@@ -441,8 +441,8 @@ Always test thoroughly before relying on this software for critical privacy need
 ## 🔗 Links
 
 - **Documentation**: [Full Guide](FINAL_ANLEITUNG.md)
-- **Issues**: [Report Bug](https://github.com/Aybee2k8/vpn-killswitch/issues)
-- **Discussions**: [Community](https://github.com/Aybee2k8/vpn-killswitch/discussions)
+- **Issues**: [Report Bug](https://github.com/Aybee2k8/VPN-Kill-Switch-MacOS/issues)
+- **Discussions**: [Community](https://github.com/Aybee2k8/VPN-Kill-Switch-MacOS/discussions)
 
 ---
 
