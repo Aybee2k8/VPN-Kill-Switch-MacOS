@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+/var/log/
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# PF Rules
+*.rules
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# App-specific
+/usr/local/vpn-killswitch/
+/Library/LaunchDaemons/com.vpnkillswitch.daemon.plist
